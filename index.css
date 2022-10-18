@@ -1,0 +1,94 @@
+:root {
+  --home-border-color: black;
+  --guest-border-color: black;
+}
+
+body {
+    margin-top: 50px;
+    background: #1B244A;
+}
+
+h3 {
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 21px;
+    margin-left: 0px;
+}
+
+h1 {
+    color: #F94F6D;
+    font-style: normal;
+    text-align: right;
+    font-size: 90px;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+button {
+    background: #1B244A;
+    border: 2px;
+    border-color: #9AABD8;
+    border-style: solid;
+    border-radius: 5px;
+    color: #9AABD8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.block {
+    /*display: flex;
+    justify-content: space-around;*/
+    width: 170px;
+    height: 120px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    background: black;
+}
+
+.scoreAdjuster {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#scoreButton {
+    background: #1B244A;
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px;
+    border-color: #9AABD8;
+    border-style: solid;
+    border-radius: 5px;
+    color: #9AABD8;
+}
+
+#resetButton {
+    height: 45px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#homeBlock {
+    border-color: var(--home-border-color);
+}
+
+#guestBlock {
+    border-color: var(--guest-border-color);
+}
